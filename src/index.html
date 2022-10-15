@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+</head>
+<body>
+    <header class="header">
+        <a href="/" class="header__logo">
+            <img src="img/eco_gildia_logo.png" alt="">
+        </a>
+        <div class="header__lang-and-burger">
+            <div class="header__lang-and-burger__lang">
+                <a href="#" class="header__lang-and-burger__lang__item">
+                    Eng
+                </a>
+                <a href="#" class="header__lang-and-burger__lang__item">
+                    Рос
+                </a>
+                <a href="#" class="header__lang-and-burger__lang__item header__lang-and-burger__lang__item--current">
+                    Укр
+                </a>
+            </div>
+        </div>
+    </header>
+   
+    <div class="first-block">
+        <div class="first-block__block-with-coins">
+            <div class="first-block__block-with-coins__left">
+                <span>Рушаймо</span>
+                <span>В екологічне</span>
+                <span>Майбутнє!</span>
+            </div>
+            <div class="first-block__block-with-coins__right">
+                <img src="img/coins.png" alt="">
+            </div>
+        </div>
+        <div class="first-block__description">
+            <button  class="main-button">
+                Залишити заявку
+            </button>
+            <div>
+                Створено з метою визначення та заохочення 
+                соціально відповідальних компаній, які ведуть 
+                активну діяльність 
+            </div>
+        </div>
+    </div>
+    <div class="second-block">
+        <a href="tel:0555555555">055 555 55 55</a>
+        <div>
+            <a href="#">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-google-plus-g"></i>
+            </a>
+        </div>
+        <span>м. Київ, вул. Ярославів Вал, 156А</span>
+    </div>
+    <div class="third-block">
+        <div class="main-caption">
+            <span class="main-caption--green">Ціль премії </span>
+            <span class="main-caption--black">– для чого
+                й для кого ми її робимо</span>
+        </div>
+        <div class="third-block__wrapper">
+            <div class="third-block__wrapper__item">
+                <div>
+                    <img src="img/icon1.png" alt="">
+                </div>
+                <span>
+                    Визначення соціально 
+                    відповідальних 
+                    компаній
+                </span>
+            </div>
+            <div class="third-block__wrapper__item">
+                <div>
+                    <img src="img/icon2.png" alt="">
+                </div>
+                <span>
+                    Популярізація 
+                    засад сталого
+                    розвитку
+                </span>
+            </div>
+            <div class="third-block__wrapper__item">
+                <div>
+                    <img src="img/icon3.png" alt="">
+                </div>
+                <span>
+                    Просування
+                    принципів
+                    еко-свідомості
+                </span>
+            </div>
+        </div>
+        <div>  
+            <button class="main-button main-button--center">
+                Залишити заявку
+            </button>
+        </div>
+    </div>
+    <div class="fourth-block">
+        <div class="main-caption main-caption--green">
+            Номінації
+        </div>
+        <div class="fourth-block__grid">
+            <div class="fourth-block__grid__item">
+                <img src="img/grid-icon-1.png" alt="">
+                <div class="fourth-block__grid__item__caption">
+                    Еко Фуд
+                </div>
+                <a id='details-1' onclick="details(this)">докладніше</a>
+            </div>
+            <div class="fourth-block__grid__item">
+                <img src="img/grid-icon-2.png" alt="">
+                <div class="fourth-block__grid__item__caption">
+                    Еко івент
+                </div>
+                <a id='details-2' onclick="details(this)">докладніше</a>
+            </div>
+            <div class="fourth-block__grid__item">
+                <img src="img/grid-icon-3.png" alt="">
+                <div class="fourth-block__grid__item__caption">
+                    Еко дизайн
+                </div>
+                <a id='details-3' onclick="details(this)">докладніше</a>
+            </div>
+            <div class="fourth-block__grid__item">
+                <img src="img/grid-icon-4.png" alt="">
+                <div class="fourth-block__grid__item__caption">
+                    Еко Офіс
+                </div>
+                <a id='details-4' onclick="details(this)">докладніше</a>
+            </div>
+            <div class="fourth-block__grid__item">
+                <img src="img/grid-icon-5.png" alt="">
+                <div class="fourth-block__grid__item__caption">
+                    Еко продукт
+                </div>
+                <a id='details-5' onclick="details(this)">докладніше</a>
+            </div>
+            <div class="fourth-block__grid__item">
+                <img src="img/grid-icon-6.png" alt="">
+                <div class="fourth-block__grid__item__caption">
+                    Еко інвестиція
+                </div>
+                <a id='details-6' onclick="details(this)">докладніше</a>
+            </div>
+            <div class="fourth-block__grid__item">
+                <img src="img/grid-icon-7.png" alt="">
+                <div class="fourth-block__grid__item__caption">
+                    Еко прорив
+                </div>
+                <a id='details-7' onclick="details(this)">докладніше</a>
+            </div>
+        </div>
+    </div>
+    <div class="fifth-block">
+        <div class="main-caption">
+            <div class="main-caption main-caption--black">
+                Чому вам повинно бути цікаво. 
+            </div>
+            <div class="main-caption main-caption--green">
+                Що отримає номінант
+            </div>
+        </div>
+        <div class="fifth-block__wrapper">
+            <div class="fifth-block__wrapper__left">
+                <img src="img/giftImg.png" alt="">
+            </div>
+            <div class="fifth-block__wrapper__right">
+                <span>
+                    Чому вам повинно бути цікаво. 
+                    Що отримає номінант (піар підтримка 
+                    на рік від агенства «ТО ШО НАДО»). 
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="sixth-block">
+        <div class="main-caption main-caption--green">
+            Організаторы
+        </div>
+        <div>
+            <img src="img/eco_gildia_logo--green.png" alt="">
+            <img src="img/comments_logo_ukr.png" alt="">
+        </div>
+        <div>
+            <span>
+                Економічний і політичний експерт Тарас Загородній вважає одним із найгрізніших 
+                викликів – енергетичну кризу, яка на нас невблаганнонасувається. "Можливі перебої з 
+                електроенергією. Зліт тарифів на газ та пов'язані з цим протестні виступи народу. У 
+                Житомирі вже приходили підоблгаз, умовно кажучи, бити пику. А в листопаді, коли люди 
+                отримаютьперші платіжки з новими тарифами, взагалі буде спека", – прогнозує Тарас 
+                Загородній. Зі зростанням цін на газ, опалення і так далі –безпосередньо пов'язане 
+                зростання.
+            </span>
+        </div>
+    </div>
+    <div class="seventh-block">
+        <div class="main-caption">
+            Партнери й учасники:
+        </div>
+        <div class="seventh-block__wrapper">
+            <div class="seventh-block__wrapper__item">
+                <img src="img/compLogo.png" alt="">
+                <div>Company Slogan Here</div>
+            </div>
+            <div class="seventh-block__wrapper__item">
+                <img src="img/wolf-logo.png" alt="">
+                <div>Masked Wolf</div>
+            </div>
+            <div class="seventh-block__wrapper__item">
+                <img src="img/compLogo.png" alt="">
+                <div>Company Slogan Here</div>
+            </div>
+            <div class="seventh-block__wrapper__item">
+                <img src="img/adidas-logo.png" alt="">
+                <div>Adidas</div>
+            </div>
+        </div>
+    </div>
+    <div id='form' class="form-block">
+        <div class="main-caption main-caption--green">
+            Подати заявку на участь
+        </div>
+        <form class="form-block__form">
+            <label class="name" for="name">
+                <input id='name' type="text" placeholder="Ім'я">
+            </label>
+            <label class="email" for='email'>
+                <input id='email' type="email" placeholder="Пошта">
+            </label>
+            <label class='tel' for='tel'>
+                <input id='tel' type="mail" placeholder="Номер телефону">
+            </label>
+            <div class="form-block__form__submit">
+                <button type="submit" id="submit" disabled='disabled' class="main-button">
+                    Залишити заявку
+                </button>
+            </div>
+            <div class="form-block__form__checkbox">
+                <label class="container"><span>Я приймаю </span><a href="#">умовно оферти</a>
+                    <input type="checkbox" id='checkbox1' onchange="disabledButton()">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container"><span>Даю згоду </span><a href="#">на обробку даних</a>
+                    <input type="checkbox" id='checkbox2' onchange="disabledButton()">
+                    <span class="checkmark"></span>
+                </label>
+            </div>
+        </form>
+    </div>
+    <footer  class="footer">
+        <div class="footer__top">
+            <div class="footer__top__logo">
+                <img src="img/eco_gildia_logo--green.png" alt="">
+            </div>
+            <div class="footer__top__contacts">
+                <a href="tel:0555555555">055 555 55 55</a>
+                <div>
+                    <a href="#">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-google-plus-g"></i>
+                    </a>
+                </div>
+                <span>м. Київ, вул. Ярославів Вал, 156А</span>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <a href="#">Публічний договір (оферта) </a>
+            <a href="#">Політика конфіденційності</a>
+        </div>
+    </footer>
+
+    <div id="modal-1" class="modal">
+        <div class="modal__body">
+            <div class="modal__content">
+                <a id='close-modal-1' class="modal__close" onclick="closeModal(this)">
+                    <span></span>
+                    <span></span>
+                </a>
+                <div class="modal__caption">
+                    <div class="main-caption">Номінація</div>
+                    <img src="img/grid-icon-1.png" alt="">
+                    <div class="main-caption main-caption--green">Еко Фуд</div>
+                </div>
+                <div class="modal__text">
+                    <p>
+                        Номінація (лат. nominatio — найменування) має такі значення:
+                    </p>
+                    <p>
+                        Номінація (мовознавство) — іменування як процес співвіднесення мовних 
+                        одиниць з об'єктами, що вони позначають, та увесь комплекс лінгвістичних 
+                        питань, пов'язаний з цим процесом
+                        Номінація (культура) — категорія творів чи осіб, з-поміж яких експерти у певних 
+                        галузях культури обирають найкращих, а також процес такого відбору і 
+                        тематична позиція твору чи особи при присудженні нагороди на фестивалі чи 
+                        конкурсі
+                        Номінація (ономастика) — процес присвоєння власних назв
+                        Номінація (топоніміка) — історія виникнення та перетворень топонімів
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-2" class="modal">
+        <div class="modal__body">
+            <div class="modal__content">
+                <a id='close-modal-2' class="modal__close" onclick="closeModal(this)">
+                    <span></span>
+                    <span></span>
+                </a>
+                <div class="modal__caption">
+                    <div class="main-caption">Номінація</div>
+                    <img src="img/grid-icon-1.png" alt="">
+                    <div class="main-caption main-caption--green">Еко івент</div>
+                </div>
+                <div class="modal__text">
+                    <p>
+                        Номінація (лат. nominatio — найменування) має такі значення:
+                    </p>
+                    <p>
+                        Номінація (мовознавство) — іменування як процес співвіднесення мовних 
+                        одиниць з об'єктами, що вони позначають, та увесь комплекс лінгвістичних 
+                        питань, пов'язаний з цим процесом
+                        Номінація (культура) — категорія творів чи осіб, з-поміж яких експерти у певних 
+                        галузях культури обирають найкращих, а також процес такого відбору і 
+                        тематична позиція твору чи особи при присудженні нагороди на фестивалі чи 
+                        конкурсі
+                        Номінація (ономастика) — процес присвоєння власних назв
+                        Номінація (топоніміка) — історія виникнення та перетворень топонімів
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-3" class="modal">
+        <div class="modal__body">
+            <div class="modal__content">
+                <a id='close-modal-3' class="modal__close" onclick="closeModal(this)">
+                    <span></span>
+                    <span></span>
+                </a>
+                <div class="modal__caption">
+                    <div class="main-caption">Номінація</div>
+                    <img src="img/grid-icon-1.png" alt="">
+                    <div class="main-caption main-caption--green">Еко дизайн</div>
+                </div>
+                <div class="modal__text">
+                    <p>
+                        Номінація (лат. nominatio — найменування) має такі значення:
+                    </p>
+                    <p>
+                        Номінація (мовознавство) — іменування як процес співвіднесення мовних 
+                        одиниць з об'єктами, що вони позначають, та увесь комплекс лінгвістичних 
+                        питань, пов'язаний з цим процесом
+                        Номінація (культура) — категорія творів чи осіб, з-поміж яких експерти у певних 
+                        галузях культури обирають найкращих, а також процес такого відбору і 
+                        тематична позиція твору чи особи при присудженні нагороди на фестивалі чи 
+                        конкурсі
+                        Номінація (ономастика) — процес присвоєння власних назв
+                        Номінація (топоніміка) — історія виникнення та перетворень топонімів
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-4" class="modal">
+        <div class="modal__body">
+            <div class="modal__content">
+                <a id='close-modal-4' class="modal__close" onclick="closeModal(this)">
+                    <span></span>
+                    <span></span>
+                </a>
+                <div class="modal__caption">
+                    <div class="main-caption">Номінація</div>
+                    <img src="img/grid-icon-1.png" alt="">
+                    <div class="main-caption main-caption--green">Еко ОФІС</div>
+                </div>
+                <div class="modal__text">
+                    <p>
+                        Номінація (лат. nominatio — найменування) має такі значення:
+                    </p>
+                    <p>
+                        Номінація (мовознавство) — іменування як процес співвіднесення мовних 
+                        одиниць з об'єктами, що вони позначають, та увесь комплекс лінгвістичних 
+                        питань, пов'язаний з цим процесом
+                        Номінація (культура) — категорія творів чи осіб, з-поміж яких експерти у певних 
+                        галузях культури обирають найкращих, а також процес такого відбору і 
+                        тематична позиція твору чи особи при присудженні нагороди на фестивалі чи 
+                        конкурсі
+                        Номінація (ономастика) — процес присвоєння власних назв
+                        Номінація (топоніміка) — історія виникнення та перетворень топонімів
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-5" class="modal">
+        <div class="modal__body">
+            <div class="modal__content">
+                <a id='close-modal-5' class="modal__close" onclick="closeModal(this)">
+                    <span></span>
+                    <span></span>
+                </a>
+                <div class="modal__caption">
+                    <div class="main-caption">Номінація</div>
+                    <img src="img/grid-icon-1.png" alt="">
+                    <div class="main-caption main-caption--green">Еко продукт</div>
+                </div>
+                <div class="modal__text">
+                    <p>
+                        Номінація (лат. nominatio — найменування) має такі значення:
+                    </p>
+                    <p>
+                        Номінація (мовознавство) — іменування як процес співвіднесення мовних 
+                        одиниць з об'єктами, що вони позначають, та увесь комплекс лінгвістичних 
+                        питань, пов'язаний з цим процесом
+                        Номінація (культура) — категорія творів чи осіб, з-поміж яких експерти у певних 
+                        галузях культури обирають найкращих, а також процес такого відбору і 
+                        тематична позиція твору чи особи при присудженні нагороди на фестивалі чи 
+                        конкурсі
+                        Номінація (ономастика) — процес присвоєння власних назв
+                        Номінація (топоніміка) — історія виникнення та перетворень топонімів
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-6" class="modal">
+        <div class="modal__body">
+            <div class="modal__content">
+                <a id='close-modal-6' class="modal__close" onclick="closeModal(this)">
+                    <span></span>
+                    <span></span>
+                </a>
+                <div class="modal__caption">
+                    <div class="main-caption">Номінація</div>
+                    <img src="img/grid-icon-1.png" alt="">
+                    <div class="main-caption main-caption--green">Еко інвестиція</div>
+                </div>
+                <div class="modal__text">
+                    <p>
+                        Номінація (лат. nominatio — найменування) має такі значення:
+                    </p>
+                    <p>
+                        Номінація (мовознавство) — іменування як процес співвіднесення мовних 
+                        одиниць з об'єктами, що вони позначають, та увесь комплекс лінгвістичних 
+                        питань, пов'язаний з цим процесом
+                        Номінація (культура) — категорія творів чи осіб, з-поміж яких експерти у певних 
+                        галузях культури обирають найкращих, а також процес такого відбору і 
+                        тематична позиція твору чи особи при присудженні нагороди на фестивалі чи 
+                        конкурсі
+                        Номінація (ономастика) — процес присвоєння власних назв
+                        Номінація (топоніміка) — історія виникнення та перетворень топонімів
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal-7" class="modal">
+        <div class="modal__body">
+            <div class="modal__content">
+                <a id='close-modal-7' class="modal__close" onclick="closeModal(this)">
+                    <span></span>
+                    <span></span>
+                </a>
+                <div class="modal__caption">
+                    <div class="main-caption">Номінація</div>
+                    <img src="img/grid-icon-1.png" alt="">
+                    <div class="main-caption main-caption--green">Еко прорив</div>
+                </div>
+                <div class="modal__text">
+                    <p>
+                        Номінація (лат. nominatio — найменування) має такі значення:
+                    </p>
+                    <p>
+                        Номінація (мовознавство) — іменування як процес співвіднесення мовних 
+                        одиниць з об'єктами, що вони позначають, та увесь комплекс лінгвістичних 
+                        питань, пов'язаний з цим процесом
+                        Номінація (культура) — категорія творів чи осіб, з-поміж яких експерти у певних 
+                        галузях культури обирають найкращих, а також процес такого відбору і 
+                        тематична позиція твору чи особи при присудженні нагороди на фестивалі чи 
+                        конкурсі
+                        Номінація (ономастика) — процес присвоєння власних назв
+                        Номінація (топоніміка) — історія виникнення та перетворень топонімів
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
